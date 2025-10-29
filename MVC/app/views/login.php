@@ -38,11 +38,11 @@
 </head>
 <body>
 
-<form action="index.php" method="POST">
+<form action="index.php?acao=entrou" method="POST">
     <h2 style="text-align:center;">Login</h2>
     <input type="text" name="usuario" placeholder="Usuário" required>
     <input type="password" name="senha" placeholder="Senha" required>
-    <button type="submit">Entrar</button>
+    <br><a href="index.php">Logar</a>
 </form>
 
 </body>
